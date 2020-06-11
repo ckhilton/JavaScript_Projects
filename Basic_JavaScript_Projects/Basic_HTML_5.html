@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <title>Basic HTML 5</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="CSS/Basic_JavaScript_5.css">
+        <script src="JS/Basic_JavaScript_5.js"></script>
+
+    </head>
+
+    <body>
+
+        <H1>PLEASE DOUBLE CLICK EVERY BUTTON ON THIS PAGE TO DISPLAY THE RESULTS</H1>
+
+        <div>
+
+            <ol>
+                <!-- COMMENTS ON THE RIGHT ARE TO HELP CORRESPOND THE DISPLAYED NUMBERS WITH THE ORDERED LIST ELEMENTS BELOW-->
+
+                <li><button id="typeof" ondblclick="typeof_Function()">The function called in this element uses the 'document.write()' method and the 'typeof' operator. (DOUBLE CLICK)</button></li> <!-- #1-->
+
+                <li><button id="infinity" ondblclick="infinity_Function()">What is the result of (2 x 10^310) ? (DOUBLE CLICK)</button></li> <!-- #2 -->
+
+                <li><button id="negative_infinity" ondblclick="negative_infinity_Function()">What is the result of (-3 x 10^310) ? (DOUBLE CLICK)</button></li> <!-- #3 -->
+
+                <li><button id="NaN" ondblclick="display_NaN_Function()">This will display the value of the expression (0 / 0) ? (DOUBLE CLICK)</button></li> <!-- #4 STEP 97 CHALLENGE -->
+
+                <li><button id="isNaN_true" ondblclick="isNaN_true_Function()">The 'isNan()' function is used here to check if the value of (0 / 0) is not a number. (DOUBLE CLICK)</button></li> <!-- #5 STEP 97 CHALLENGE -->
+
+                <li><button id="isNaN_false" ondblclick="isNaN_false_Function()">The 'isNan()' function is used here to check if the value of (2 / 1) is not a number. (DOUBLE CLICK)</button></li> <!-- #6 STEP 97 CHALLENGE -->
+
+                <li><button id="greater_than_True" ondblclick="greater_than_true_Function()">Is 15 &gt 14? (DOUBLE CLICK)</button></li> <!-- #7 -->
+
+                <li><button id="less_than_False" ondblclick="less_than_false_Function()">Is 5 &lt 3? (DOUBLE CLICK)</button></li> <!-- #8 -->
+
+                <li><button id="coercion" ondblclick="coercionFunction()">The coercion process is used here to concatenate ("3" + 8) and display my age. (DOUBLE CLICK)</button></li> <!-- #9 -->
+
+                <li><button id="compare1" ondblclick="double_equal_true_Function()">This uses double equal signs and checks if (5+5) == (14-4) is true. (DOUBLE CLICK)</button></li> <!-- #10 -->
+
+                <li><button id="compare2" ondblclick="double_equal_false_Function()">This uses double equal signs and checks if (5+5) == (11). (DOUBLE CLICK)</button></li> <!-- #11 -->
+
+                <li><button id="triple1" ondblclick="triple_equal_SAME_DataType_SAME_Value_Function()">Using triple equal signs, the same data types with the same value will display: (DOUBLE CLICK)</button></li> <!-- #12 -->
+
+                <li><button id="triple2" ondblclick="triple_equal_DIFFERENT_DataType_DIFFERENT_Value_Function()">Using triple equal signs, different data types with different values will display: (DOUBLE CLICK)</button></li> <!-- #13 -->
+
+                <li><button id="triple3" ondblclick="triple_equal_DIFFERENT_DataType_SAME_Value_Function()">Using triple equal signs, different data types with the same value will display: (DOUBLE CLICK)</button></li> <!-- #14 -->
+                
+                <li><button id="triple4" ondblclick="triple_equal_SAME_DataType_DIFFERENT_Value_Function()">Using triple equal signs, the same data types with different values will display: (DOUBLE CLICK)</button></li> <!-- #15 -->
+
+                <li><button id="andTrue" ondblclick="and_operator_true_Function()">Using the logical 'AND' operator (&&) we check if the expressions 4&lt5 AND 5&lt6 are both true. (DOUBLE CLICK)</button></li> <!-- #16 -->
+
+                <li><button id="andFalse" ondblclick="and_operator_false_Function()">Using the logical 'AND' operator (&&) we check if the expressions 4&lt5 AND 5&gt6 are both true. (DOUBLE CLICK)</button></li> <!-- #17 -->
+
+                <li><button id="orTrue" ondblclick="or_operator_true_Function()">Using the logical 'OR' operator (||) we check if either expression is true: (2==2 || 1>5). (DOUBLE CLICK)</button></li> <!-- #18 -->
+
+                <li><button id="orFalse" ondblclick="or_operator_false_Function()">Using the logical 'OR' operator (||) we check if either expression is true: (4==5 || 5>6). (DOUBLE CLICK)</button></li> <!-- #19 -->
+
+                <li><button id="notTrue" ondblclick="not_operator_true_Function()">Using the locical 'NOT' operator (!) we check if the expression '100&gt200' is false by placing (!) before it, like so: !(100&gt200). (DOUBLE CLICK)</button></li> <!-- #20 -->
+
+                <li><button id="notFalse" ondblclick="not_operator_false_Function()">Using the locical 'NOT' operator (!) we check if the expression '100&lt200' is false by placing (!) before it, like so: !(100&lt200). (DOUBLE CLICK)</button></li> <!-- #21 -->
+
+            </ol>
+
+        </div>
+        
+    </body>
+
+</html>
