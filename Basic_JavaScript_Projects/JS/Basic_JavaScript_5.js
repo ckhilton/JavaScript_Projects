@@ -102,14 +102,14 @@ document.getElementById("orTrue").innerHTML = x; //Use getElementById method to 
 
 function or_operator_false_Function() { //Create function called 'or_false_operator_Function'
     var x = (4==5 || 5>6); //Create variable 'x' and assign it a string value of "(4==5 || 5>6)"
-document.getElementById("orFalse").innerHTML = x; //Use getElementById method to return the computed true value of variable 's' when called by the HTML element with the ID 'orFalse'
+document.getElementById("orFalse").innerHTML = x; //Use getElementById method to return the computed true value of variable 'x' when called by the HTML element with the ID 'orFalse'
 }
 
 function not_operator_true_Function() { //Create function called 'not_operator_true_Function'
     var x = !(100>200); //Create variable 'x' and assign it a string value of "!(100>200)"
-document.getElementById("notTrue").innerHTML = x; //Use getElementById method to return the computed true value of variable 's' when called by the HTML element with the ID 'notTrue'
+document.getElementById("notTrue").innerHTML = x; //Use getElementById method to return the computed true value of variable 'x' when called by the HTML element with the ID 'notTrue'
 }
 function not_operator_false_Function() { //Create function called 'not_operator_false_Function'
     var x = !(100<200); //Create variable 'x' and assign it a string value of "!(100<200)"
-document.getElementById("notFalse").innerHTML = x; //Use getElementById method to return the computed true value of variable 's' when called by the HTML element with the ID 'notFalse'
+document.getElementById("notFalse").innerHTML = x; //Use getElementById method to return the computed true value of variable 'x' when called by the HTML element with the ID 'notFalse'
 }
