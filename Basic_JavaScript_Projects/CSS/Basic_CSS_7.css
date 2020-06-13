@@ -1,0 +1,148 @@
+/*========================================
+    AUTHOR: KIRK HILTON
+    ASSIGNMENT: Basic_HTML_7.html
+=========================================*/
+
+/* ------- BODY CONTAINER---------- */
+
+body {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    z-index: -100
+}
+
+p {
+    margin: 20px;
+}
+
+/* ------- Step 135--------- */
+
+.bank_Container {
+    box-sizing: border-box;
+    border-style: dotted;
+    display: block;
+    float: left;
+    position: relative;
+    margin: 20px;
+    padding: 10px;
+    border-spacing: 5cm;
+    border-color: green;
+}
+
+.bank_Container input {
+    margin-left: 20px;
+    border-style: double;
+    position: relative;
+    text-align: left;
+}
+
+.bank_Container p {
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    color: green;
+    z-index: 5
+}
+
+.bank_Container a {
+    margin-left: 20px;
+}
+
+#Broke {
+    color: red;
+}
+
+#Rich {
+    color: red;
+}
+
+/* ------- STEP 137---------- */
+
+.scheels_Container {
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 20px;
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+    display: block;
+    float: left;
+    top: 40px;
+    bottom: 40px;
+    margin: 20px;
+    background-color: darkcyan;
+}
+
+.inside  {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bolder;
+    outline-color: black;
+    box-sizing: border-box;
+    border-style: dotted;
+    border-color: black;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 0px;
+    position: relative;
+    margin: 40px;
+    text-align: center;
+}
+
+.inside input {
+    position: relative;
+    margin: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.inside button {
+    position: relative;
+    text-align: center;
+    background-color: cornflowerblue;
+    padding: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Ride {
+    position: relative;
+    text-align: center;
+    margin-left: 0;
+    color: black;
+    font-size: 18px;
+    font-weight: light;
+    z-index: 100;
+    padding-top: 0;
+}
+
+.Sorry {
+    position: relative;
+    text-align: center;
+    margin-left: 0;
+    color: black;
+    font-size: 18px;
+    font-weight: light;
+    z-index: 99;
+    padding-top: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* ------------ STEP 138 -------------------------*/
+.Time {
+    box-sizing: border-box;
+    border-style: solid;
+    display: block;
+    float: left;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        
+        <title>Basic HTML 7</title>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="CSS/Basic_CSS_7.css">
+        <script type="text/javascript" src="JS/Basic_JavaScript_7.js" async></script>
+        
+    </head>
+
+    <body>
+
+        <p onclick="global_variable_Function()">Click Here!</p>     <!-- STEP 131 -->
+
+        <p onclick="local_variable_Function()">Click Here!</p>          <!-- "" -->
+
+        <p onclick="both_variable_types_Function()">Click Here!</p>     <!-- "" -->
+
+        <p id="time" onclick="myFunction()">Click Here!</p>         <!-- STEP 134 -->  
+
+        
+        <!---------------------- STEP 135 **SOME CSS AND AN ANCHOR ELEMENT TO PLAY WITH** ------------------------------------->
+
+        <div class="bank_Container"> 
+
+            <p>How much money do you have in your bank account?</p>
+            
+            <input id="Money" value="" placeholder="Enter '0' for a laugh"></input>
+
+            <button type="submit" onclick="bank_Account()">CLICK HERE WHEN DONE</button>
+
+            <p id="Broke"></p>
+
+            <p id="Rich"></p>
+
+        </div>
+        
+        <!---------------------- STEP 137 **APPLYING MORE CSS TO STAY SHARP ON PREVIOUS SKILLS** -------------------->
+        
+        <div class="scheels_Container"> 
+
+            <h1>Welcome to the Scheel's ferris wheel!</h1>
+
+            <div class="inside">
+
+                <label>Riders must be at least 52 centimeters tall to ride.</label><br>
+
+                <input id="Height" value="" placeholder="Enter your height in cm"></input><br>
+
+                <button type="submit" onclick="ferris_Wheel()">CLICK HERE WHEN DONE</button>
+
+                <div class="Ride">
+
+                    <p id="Ride"></p>
+
+                </div>
+
+                <div class="Sorry">
+
+                    <p id="Sorry"></p>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- END STEP 137 -->
+
+        <!--------------------------------------- STEP 138 ----------------------------------------------------->
+        <div class="Time">
+
+            <button onclick="get_time_Function()">Click here to get the time!</button>
+
+            <p id="Time_of_Day"></p>
+
+        </div>
+
+    </body>
+
+</html>
