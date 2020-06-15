@@ -36,7 +36,7 @@ Broke = (Money == 0); //Assign the value of 'Broke' to the conditional statement
     if (Broke == true) { //Uses 'if' with the conditional statement of (Broke == true) 
         document.getElementById("Broke").innerHTML = "You ain't going nowhere!" //if the above statement is true, then this uses the 'document.getElementById()' method to display "You ain't going nowhere!"
     } else { //if (Broke == true) is false, then 'else' is utilized
-        document.getElementById("Rich").innerHTML = "You're rich!" //when the 'if statement is false, 'else' is executed and utilizes the 'document.getElementById()' method to display "You're rich!"
+        document.getElementById("Broke").innerHTML = "You're rich!" //when the 'if statement is false, 'else' is executed and utilizes the 'document.getElementById()' method to display "You're rich!"
     }
 }
 
