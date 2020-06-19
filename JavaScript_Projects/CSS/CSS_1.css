@@ -1,0 +1,94 @@
+/*==================================================
+        AUTHOR: KIRK HILTON
+        ASSIGNMENT: CSS 1
+==================================================*/
+
+/*-----------GENERIC CSS----------*/
+body {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    z-index: -100;
+    margin: 40px;
+    margin-top: 10px;
+}
+
+#title {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 100px;
+}
+
+p {
+    font-weight: bold;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+/*----------STEP 207 CSS------------ */ 
+
+.buffet_container {
+    box-sizing: border-box;
+    border-style: solid;
+    height: 600px;
+    width: 600px;
+    display: block;
+    position: relative;
+    padding: 40px;
+    text-align: center;
+}
+
+.buffet_container img {
+    box-sizing: border-box;
+    height: 595px;
+    width: 595px;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    opacity: .4;
+    z-index: -99;
+}
+
+.buffet_container h1, .buffet_container h3, .buffet_container p {
+    font-weight: bolder;
+    position: relative;
+    text-transform: uppercase;
+
+}
+
+.buffet_container input {
+    border-width: thick;
+    background-color: lightskyblue;
+    outline: none;
+}
+
+.buffet_container input, .buffet_container p {
+    font-weight: bold;
+}
+
+.buffet_container button {
+    cursor: pointer;
+    margin: 4px 2px;
+    background-color: blue;
+    border-width: thick;
+    font-weight: 700;
+}
+
+.foods_box {
+    box-sizing: border-box;
+    border-style: solid;
+    margin: 20px;
+    text-align: left;
+}
+
+.column1, .column2 {
+    padding: 25px;
+    margin: auto;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bolder;
+}

@@ -1,0 +1,73 @@
+/*==========================================================
+        AUTHOR: KIRK HILTON
+        ASSIGNMENT: CSS 2
+=========================================================*/
+
+/*------ GENERIC CSS ---------*/
+#title {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 100px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+body {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    z-index: -100;
+    margin: 40px;
+    margin-top: 10px;
+}
+
+/*--------- STEP 221 ----------*/
+.contact_form_container {
+    box-sizing: border-box;
+    border-style: solid;
+    height: 500px;
+    width: 500px;
+    display: block;
+    position: relative;
+    padding-top: 30px;
+    padding-left: 20px;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+.contact_form_container form {
+    box-sizing: border-box;
+    border-style: dashed;
+    height: 285px;
+    width: 275px;
+    margin-top: 30px;
+    margin-left: 85px;
+    padding-top:  20px;
+    padding-left: 45px;
+    text-align: left;
+}
+
+.contact_form_container input {
+    border-width: thick;
+    background-color: lightskyblue;
+    outline: none;
+}
+
+.contact_form_container #email {
+    background-color: lightskyblue;
+}
+
+.contact_form_container #submit {
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px lightskyblue inset !important;
+}

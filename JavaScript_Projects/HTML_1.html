@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <title>HTML 1</title>
+        <link rel="stylesheet" type="text/css" href="CSS/CSS_1.css">
+        <script src="JavaScript/JavaScript_1.js" defer></script>
+
+    </head>
+
+    <body>
+        
+        <h1 id="title">Assignment: HTML 1</h1>
+        
+        <!------------------------ STEP 207 ---------------------------------->
+        <h2>STEP 207:</h2>
+        
+        <div class="buffet_container">
+
+            <img src="Images/Buffet.jfif" alt="">
+
+            <h1>International Buffet</h1>
+
+            <h3>What's your favorite international food?</h3>
+
+            <div class="foods_box">
+
+                <div class="column1">
+
+                    <ul>
+                        <li>American</li>
+                        <li>Chinese</li>
+                        <li>Korean</li>
+                        <li>Vegan</li>
+                        <li>Thai</li>
+                        <li>Indian</li>
+                    </ul>
+
+                </div>
+
+                <div class="column2">
+
+                    <ul>
+                        <li>Vietnamese</li>
+                        <li>Mexican</li>
+                        <li>Peruvian</li>
+                        <li>Chilean</li>
+                        <li>Greek</li>
+                        <li>Junk</li>
+                    </ul>
+
+                </div>
+
+            </div>  
+
+            <h4>Enter your choice below, then click the SUBMIT button</h4>
+            
+            <input id="entered" type="menu" placeholder="Enter choice here">
+
+            <button onclick="switch_Function()">SUBMIT</button>
+
+            <p id="result"></p>
+            
+        </div>
+
+        <!--------------------- STEP 216 ---------------------------->
+        <h2>STEP 216:</h2>
+
+        <p class="ClassName">Example of using 'document.getElementByClassName()'.</p>
+        <p class="ClassName">This text will change when you click the button!</p>
+        <button onclick="ClassName_Function()">BUTTON</button>
+
+        <!--------------------- STEP 218 --------------------------->
+        <h2>STEP 218:</h2>
+        
+        <img id="galaxy" src="Images/Galaxy.jpg" alt="">
+        <p>Click the button to fill the canvas.</p>
+        <p><button onclick="Canvas_Function()">CLICK HERE!</button></p>
+        <canvas id="canvas" width="200" height="200" style="border: 1px solid black;" ></canvas>
+        <br><br>
+
+        <!-------------------- STEP 220 ----------------------------->
+        <h2>STEP 220:</h2>
+        <p>Click the button to fill the canvas.</p>
+        <p><button onclick="gradient_Function()">CLICK HERE!</button></p>
+        <canvas id="canvas2" width="200" height="200" style="border: 1px solid black;" ></canvas>
+        <br><br>
+    </body>
+
+</html>

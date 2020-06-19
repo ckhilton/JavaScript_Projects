@@ -1,0 +1,65 @@
+/*==========================================================
+        AUTHOR: KIRK HILTON
+        ASSIGNMENT: CSS 3
+=========================================================*/
+
+/*------ GENERIC CSS ---------*/
+#title {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 100px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+body {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    z-index: -100;
+    margin: 40px;
+    margin-top: 10px;
+}
+
+/*-------- STEP 243 --------------*/
+.list_container {
+    box-sizing: border-box;
+    border-style: solid;
+    height: 600px;
+    width: 600px;
+    display: block;
+    position: relative;
+    padding-top: 30px;
+    padding-left: 10px;
+    text-align: center;
+    background-color: lightseagreen;
+}
+
+.list_container .list {
+    box-sizing: border-box;
+    border-style: solid;
+    height: 350px;
+    width: 350px;
+    margin-top: 30px;
+    margin-left: 100px;
+    padding-top:  25px;
+    padding-left: 50px;
+    text-align: left;
+    background-color: lightskyblue;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.list li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: red;
+}
+
+.list_container h1 {
+    color: darkred;
+}
+
