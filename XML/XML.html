@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <title>XML</title>
+        <meta charset="utf-8">
+
+    </head>
+
+    <body>
+
+        <p id="XML_Practice"></p>
+
+        <script>
+
+            var XML_Parser, XML_Document;
+
+            //------------------ CREATES A TEXT STRING -----------------
+            var Climber =   "<climber>" + "<name>Kirk Hilton</name>" +
+                            "<height>5&apos9&quot</height>" + "<weight>175lbs</weight>" + 
+                            "<age>38</age>" + "</climber>";
+            
+            //-------------- CREATES AN XML DOM PARSER -----------------
+            XML_Parser = new DOMParser();
+
+            //--- CREATES A NEW XML DOM OBJECT USING THE TEXT STRING ---
+            XML_Document = XML_Parser.parseFromString(Climber, "text/xml");
+
+            //--- REFERENCES HTML ELEMENT '<p>'
+            document.getElementById("XML_Practice").innerHTML = XML_Document.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+
+        </script>
+
+    </body>
+
+</html>
