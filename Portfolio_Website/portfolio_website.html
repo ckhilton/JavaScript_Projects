@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>KIRK HILTON</title>
+	<link rel="stylesheet" type="text/css" href="CSS/portfolio_website.css">
+	<script rel="text/javascript" src="JS/portfolio_website.js" defer></script>
+
+</head>
+
+<body>
+
+	<!-- NAVBAR -->
+	<div class="Navbar">
+
+		<a class="active" href="#Home">Home</a>
+		<a href="#About">About</a>
+		<a href="#Skills">Skills</a>
+		<a href="#Media">Social Media</a>
+		<a onclick="openForm()">Contact</a>
+
+	</div>
+	<!-- /NAVBAR -->
+
+	<!-- VIDEO AREA -->
+	<div id="Home">
+
+		<video autoplay muted loop id="Background_Video">
+			<source src="Video/Waves.mp4" type="video/mp4">
+				HTML5 video not supported by your browser
+		</video>
+
+		<div class="Video_Text">
+
+			<h1>Kirk Hilton</h1>
+			<p>~ WEB DEVELOPER ~</p>
+
+		</div>
+
+	</div>
+	<!-- /VIDEO AREA -->
+
+	<!-- MAIN BODY ROW 1 -->
+	<div class="Row_1" id="About">
+
+		<div class="Column_1">
+
+			<img src="Images/family.jpg" alt="Family Pic">
+
+		</div>
+
+		<div class="Column_2">
+
+			<h3>About Me</h3>
+
+			<p>
+
+				<br>I'm a software developer who loves to code!<br>
+				<br>I'm also a father, husband, and rock climber who enjoys spending time with my family and friends
+				outdoors.<br>
+				<br> As a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech
+					Academy</a>, I've been trained in HTML, CSS, JavaScript, SQL, Python, C#, and more.<br>
+				<br>As a full-stack developer, I would love to work with you on your project.&nbsp;<a
+					onclick="openForm()" href="#Contact">Contact me now!</a>
+
+			</p>
+
+		</div>
+	</div>
+
+	<!-- MAIN BODY ROW 2 -->
+	<div class="Row_2" id="Skills">
+
+		<div class="Column_3">
+			<div id="Slideshow">
+				<div id="Slideshow_Background">
+					<div id="Slideshow_Container">
+
+						<h5>Skills</h5>
+
+						<div class="mySlides fade">
+							<img class="Slide_Show_Images" src="Images/HTML_CSS_and_JavaScript.jpeg" style="width:90%" alt="Image">
+						</div>
+
+						<div class="mySlides fade">
+							<img class="Slide_Show_Images" src="Images/Python.png" style="width:90%" alt="Image">
+						</div>
+
+						<div class="mySlides fade">
+							<img class="Slide_Show_Images" src="Images/C_Sharp_and_Dot_NET.png" style="width:90%" alt="Image">
+						</div>
+
+						<div class="mySlides fade">
+							<img class="Slide_Show_Images" src="Images/SQL_and_Database.jpg" style="width:90%" alt="Image">
+						</div>
+
+						<div class="mySlides fade">
+							<img class="Slide_Show_Images" src="Images/Coding.jpg" style="width:90%" alt="Image">
+							<div class="text-overlay">
+								<a onclick="openForm()" href="#Contact">CONTACT ME!</a>
+							</div>
+						</div>
+
+						<div class="dot-align">
+							<span class="dot" onclick="currentSlide(1)"></span>
+							<span class="dot" onclick="currentSlide(2)"></span>
+							<span class="dot" onclick="currentSlide(3)"></span>
+							<span class="dot" onclick="currentSlide(4)"></span>
+							<span class="dot" onclick="currentSlide(5)"></span>
+						</div>
+
+						<a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+						<a class="Next" onclick="plusSlides(1)">&#10095;</a>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="Column_4">
+
+			<img src="Images/Development.jpg" alt="Development Image">
+
+		</div>
+
+	</div>
+
+	<!-- MAIN BODY ROW 3 -->
+	<div class="Row_3" id="Media">
+
+		<div class="Column_5" id="Github">
+
+			<img src="Images/GitHub.png" alt="media">
+			<p>VIEW MY GITHUB PROJECTS HERE:<br>
+				<a href="https://github.com/ckhilton" target="_blank"><br>MY GITHUB</a>
+			</p>
+
+		</div>
+
+		<div class="Column_6">
+
+				<div class="media_container_top">
+						<a href="https://www.facebook.com/kirk.hilton.39" target="_blank"><img src="Images/facebook.png" alt="Image"></a>
+						<a href="https://www.instagram.com/kirk_hilton/" target="_blank"><img src="Images/instagram.png" alt="Image"></a>
+				</div>
+
+				<div class="media_container_bottom">
+						<a href="https://www.linkedin.com/in/kirk-hilton/" target="_blank"><img src="Images/linkedin.png" alt="Image"></a>
+						<a href="https://www.youtube.com/channel/UCAeNVpSmLOO76854OMPe1QQ" target="_blank"><img src="Images/youtube.png"></a>
+						<p>CLICK A LOGO TO LEARN MORE ABOUT ME</p>
+				</div>
+
+		</div>
+	</div>
+
+	<!-- CONTACT FORM -->
+	<div id="Contact">
+
+		<button onclick="openForm()" class="Pop_Up_Button">CONTACT</button>
+
+		<div class="form-popup" id="myForm">
+
+			<!-- FREE FORM SUBMISSION SERVICE FROM https://formspree.io/ MUST BE LIVE TO WORK -->
+			<form action="https://formspree.io/ckirkhilton@gmail.com" method="POST" class="form-container">
+
+				<label for="name">Name</label>
+				<input type="text" placeholder="Type your name here" name="name" required>
+
+				<label for="phone">Phone</label>
+				<input type="text" placeholder="Enter your phone number here" name="phone">
+
+				<label for="email">Email</label>
+				<input type="text" placeholder="Type your email address here" name="email" required>
+
+				<label for="message">Message</label>
+				<input type="text" placeholder="Type your message here" name="message">
+
+				<button type="submit" class="btn">SUBMIT</button>
+				<button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
+
+			</form>
+
+		</div>
+	</div>
+
+	<!-- FOOTER -->
+	<footer>
+
+		<p>&copy; Kirk Hilton, 2020</p>
+
+	</footer>
+	<!-- /FOOTER -->
+
+</body>
+
+</html>
